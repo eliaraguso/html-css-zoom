@@ -15,6 +15,35 @@
 body {
     height: 100vh;
 }
-/* ------------------------------typo--------------------- */
 
+.flex {
+    display: flex;
+}
+/* ------------------typo----------------- */
 
+.white {
+    color: white;
+}
+
+.black {
+    color: black;
+}
+
+/* -----------header------------ */
+header {
+    height: 45px;
+    justify-content: space-between;
+    background-color: #1a1a1a;
+    border: 1px solid;
+}
+
+.fa-shield-alt {
+    color: #23d959;
+    background-color: coral;
+}
+
+.recording {
+    background-color: coral;
+}
+
+header
