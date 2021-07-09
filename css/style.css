@@ -97,19 +97,75 @@ header {
 
 .col-main-left, .col-main-right {
     width: 15%;
-    border: 1px solid;
 }
 
+.fa-caret-left, .fa-caret-right {
+    color: #2db9ff;
+    font-size: 50px;
+    padding-bottom: 2px;
+} 
+/* -----------------column left-------------- left */
+.col-main-left a, .col-main-right a {
+    height: 90px;
+    width: 60px;
+    text-decoration: none;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: flex-end;
+    background-image: linear-gradient(to top, #000000, #121212, #1e1e1e, #2a2a2a, #363636);
+}
+
+.col-main-left, .col-main-right {
+    align-items: center;
+}
+
+.btn-arrow {
+    align-items: center;
+    flex-direction: column;
+}
+
+.screen-indicator {
+    padding-bottom: 2px;
+}
+
+/* ---------------column right-------------- */
+.col-main-right {
+    justify-content: flex-end;
+}
+
+/* ------------column-center-------------- */
 .col-main-center {
     width: 70%;
-    border: 1px solid;
     align-items: flex-start;
 }
 
 .user-cam {
-    width: 20%;
+    width: calc(20% - 10px);
+    position: relative;
+    margin: 5px 5px 0 5px;
 }
 
 .col-main-center img {
     max-width: 100%;
+    border-radius: 10px;
 }
+
+.col-main-center .fa-microphone-alt-slash, .col-main-center .user-name {
+    display: inline-block;
+}
+
+.user-info {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    background-color: rgba(0, 0, 0, 0.541);
+    color: white;
+    border-radius: 4px;
+    padding: 2px 5px;
+}
+
+.fa-microphone-alt-slash {
+    color: #d25654;
+}
+
+
