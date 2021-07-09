@@ -22,8 +22,8 @@ body {
     display: flex;
 }
 
-.no-wrap {
-    flex-wrap: nowrap;
+.wrap {
+    flex-wrap: wrap;
 }
 
 header, main {
@@ -78,14 +78,12 @@ header {
 .header-right {
     /* background-color: #212122; */
     background-color: black;
-    height: 43px;
-    align-self: center;
     border-radius: 10px;
     padding: 0px 10px;
 }
 
 .view {
-    line-height: 43px;
+    line-height: 38px;
     margin-left: 5px;
     text-decoration: none;
 }
@@ -95,6 +93,23 @@ header {
 }
 
 /* -------------main-------------- */
-main {
-    height: 1000px;
+
+
+.col-main-left, .col-main-right {
+    width: 15%;
+    border: 1px solid;
+}
+
+.col-main-center {
+    width: 70%;
+    border: 1px solid;
+    align-items: flex-start;
+}
+
+.user-cam {
+    width: 20%;
+}
+
+.col-main-center img {
+    max-width: 100%;
 }
