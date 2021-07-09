@@ -14,10 +14,16 @@
 
 body {
     height: 100vh;
+    max-width: 1920px;
+    margin: auto;
 }
 
 .flex {
     display: flex;
+}
+
+.no-wrap {
+    flex-wrap: nowrap;
 }
 /* ------------------typo----------------- */
 
@@ -42,8 +48,37 @@ header {
     background-color: coral;
 }
 
-.recording {
+.green-shield-icon {
+    margin-right: 5px;
+}
+
+.header-left {
+    line-height: 45px;
+}
+
+#rec-img {
+    transform: scale(0.4, 0.4);
+}
+.recording-col {
     background-color: coral;
 }
 
-header
+.header-right {
+    /* background-color: #212122; */
+    background-color: lightblue;
+    height: 30px;
+    align-self: center;
+    border-radius: 10px;
+    padding: 0px 10px;
+}
+
+.view {
+    line-height: 25px;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+.fa-th {
+    line-height: 30px;
+}
+
