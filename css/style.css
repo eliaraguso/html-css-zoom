@@ -25,6 +25,10 @@ body {
 .no-wrap {
     flex-wrap: nowrap;
 }
+
+header, main {
+    background-color: #1a1a1a;
+}
 /* ------------------typo----------------- */
 
 .white {
@@ -39,13 +43,14 @@ body {
 header {
     height: 45px;
     justify-content: space-between;
-    background-color: #1a1a1a;
-    border: 1px solid;
+    padding: 8px 8px 0 8px ;
 }
 
 .fa-shield-alt {
     color: #23d959;
-    background-color: coral;
+    background-color: black;
+    padding: 3px;
+    border-radius: 4px;
 }
 
 .green-shield-icon {
@@ -57,28 +62,39 @@ header {
 }
 
 #rec-img {
-    transform: scale(0.4, 0.4);
+    display: inline;
+    width: 15px;
 }
 .recording-col {
-    background-color: coral;
+    background-color: black;
+    border-radius: 10px;
+    padding: 0 10px;
 }
 
+.recording-col p {
+    display: inline;
+    font-size: 14px;
+}
 .header-right {
     /* background-color: #212122; */
-    background-color: lightblue;
-    height: 30px;
+    background-color: black;
+    height: 43px;
     align-self: center;
     border-radius: 10px;
     padding: 0px 10px;
 }
 
 .view {
-    line-height: 25px;
+    line-height: 43px;
     margin-left: 5px;
     text-decoration: none;
 }
 
 .fa-th {
-    line-height: 30px;
+    line-height: 43px;
 }
 
+/* -------------main-------------- */
+main {
+    height: 1000px;
+}
