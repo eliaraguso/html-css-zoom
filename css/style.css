@@ -14,7 +14,6 @@
 }
 
 body {
-    height: 100vh;
     max-width: 1920px;
     margin: auto;
 }
@@ -47,7 +46,7 @@ header {
     padding: 8px 8px 0 8px ;
 }
 
-.fa-shield-alt {
+header .fa-shield-alt {
     color: #23d959;
     background-color: black;
     padding: 3px;
@@ -105,6 +104,10 @@ header {
     font-size: 50px;
     padding-bottom: 2px;
 } 
+
+main {
+    height: calc(100vh - 95px);
+}
 /* -----------------column left-------------- left */
 .col-main-left a, .col-main-right a {
     height: 90px;
@@ -195,7 +198,7 @@ footer {
     position: absolute;
     right: 0;
     top: 6px;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .btn-container-footer {
@@ -213,4 +216,8 @@ footer {
     font-size: 10px;
     padding: 5px 10px;
     margin-right: 5px;
+}
+
+.green {
+    color: #23d959;
 }
