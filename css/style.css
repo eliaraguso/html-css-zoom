@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* -------------common----------- */
@@ -170,23 +171,46 @@ header {
 
 /* -----------------footer--------------------- */
 footer {
+    color: #aaabac;
     height: 50px;
-    /* background-image: linear-gradient(to top, #141516, #1b1c1d, #232324, #2a2a2b, #323232); */
+    background-image: linear-gradient(to top, #141516, #1b1c1d, #232324, #2a2a2b, #323232);
     justify-content: space-between;
 }
 
 .footer-left, .footer-central, .footer-right {
     text-align: center;
     text-decoration: none;
-    width: 300px;
-    border: 1px solid;
-    background-color: blanchedalmond;
-    flex-direction: column;
     justify-content: center;
+    /* border: 1px solid; */
+    /* background-color: blanchedalmond; */
 }
 
 .btn-footer {
-    
+    /* background-color: lime; */
+    margin: auto;
+    margin-top: 6px;
 }
 
+.arrow-up {
+    position: absolute;
+    right: 0;
+    top: 6px;
+    font-size: 15px;
+}
 
+.btn-container-footer {
+    position: relative;
+    min-width: 74px;
+    margin: 0 5px;
+}
+
+.end-btn {
+    background-color: #e02828;
+    border-radius: 10px;
+    line-height: 50px;
+    text-decoration: none;
+    color: #aaabac;
+    font-size: 14px;
+    padding: 5px 10px;
+    margin-right: 5px;
+}
